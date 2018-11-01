@@ -7,7 +7,7 @@ print('Hello {0}! I am {1}'.format(salutee, saluter))
 student_names = ["Mina", "Kaity", "Manal", "Za3bola"]
 student_names.append("Magdi")
 
-lyrics=["ard","tefa7ar","sa2f", "tema7ar", "jerken", "terken"]
+
 
 print(len(student_names))
 print(student_names)
@@ -23,10 +23,6 @@ print(student_names)
 
 for name in student_names:
     print("Hello {0}! I am {1}".format(salutee,name))
-
-for index in range(0,len(lyrics),2):
-    print("Adik fel {0} {1}".format(lyrics[index], lyrics[index+1]))
-
 for name in student_names:
     if name =="Za3bola":
         continue
@@ -34,3 +30,12 @@ for name in student_names:
         print("Found her!")
         break
     print(name + " . . .nope!")
+
+lyrics=["ard","tefa7ar","sa2f", "tema7ar", "jerken", "terken"]
+lyricsdic = {"ard":"tefa7ar", "sa2f":"tema7ar", "jerken": "terken", "7ara":"segara"}
+for index in range(0,len(lyrics),2):
+    print("Adik fel {0} {1}".format(lyrics[index], lyrics[index+1]))
+
+for key, value in lyricsdic.items():
+    print("Adik fel {0} {1}".format(key, value))
+
