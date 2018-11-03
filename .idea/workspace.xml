@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee9bac45-9c4c-457f-b126-7e7fd1b204e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld.py" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,13 +32,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="py" value="1739" />
+          <entry key="py" value="2443" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="1739" />
+          <entry key="Python" value="2443" />
         </counts>
       </usages-collector>
     </session>
@@ -60,7 +57,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exceptions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="281">
               <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
@@ -69,13 +66,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/functions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+            <state relative-caret-position="255">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
               <folding>
-                <marker date="1541053567587" expanded="true" signature="45:50" ph="..." />
-                <marker date="1541053567587" expanded="true" signature="209:210" ph="..." />
-                <marker date="1541053567587" expanded="true" signature="385:390" ph="..." />
-                <marker date="1541053567587" expanded="true" signature="443:580" ph="..." />
+                <element signature="e#50#173#0" />
+                <element signature="e#245#364#0" />
+                <element signature="e#410#505#0" />
+                <element signature="e#510#669#0" />
+                <element signature="e#746#965#0" />
+                <element signature="e#759#876#0" />
+                <element signature="e#916#965#0" />
+                <element signature="e#417#444#0" />
+                <marker date="1541287434108" expanded="false" signature="60:65" ph="..." />
+                <marker date="1541287434108" expanded="true" signature="240:241" ph="..." />
+                <marker date="1541287434108" expanded="true" signature="460:465" ph="..." />
+                <marker date="1541287434108" expanded="true" signature="741:972" ph="..." />
+                <marker date="1541287434108" expanded="false" signature="1307:1447" ph="..." />
               </folding>
             </state>
           </provider>
@@ -253,15 +259,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1549" height="796" extended-state="6" />
+    <frame x="-6" y="-6" width="1549" height="796" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22523117" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23423423" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32882884" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3228228" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -291,20 +297,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exceptions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="281">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+        <state relative-caret-position="255">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
-            <marker date="1541053567587" expanded="true" signature="45:50" ph="..." />
-            <marker date="1541053567587" expanded="true" signature="209:210" ph="..." />
-            <marker date="1541053567587" expanded="true" signature="385:390" ph="..." />
-            <marker date="1541053567587" expanded="true" signature="443:580" ph="..." />
+            <element signature="e#50#173#0" />
+            <element signature="e#245#364#0" />
+            <element signature="e#410#505#0" />
+            <element signature="e#510#669#0" />
+            <element signature="e#746#965#0" />
+            <element signature="e#759#876#0" />
+            <element signature="e#916#965#0" />
+            <element signature="e#417#444#0" />
+            <marker date="1541287434108" expanded="false" signature="60:65" ph="..." />
+            <marker date="1541287434108" expanded="true" signature="240:241" ph="..." />
+            <marker date="1541287434108" expanded="true" signature="460:465" ph="..." />
+            <marker date="1541287434108" expanded="true" signature="741:972" ph="..." />
+            <marker date="1541287434108" expanded="false" signature="1307:1447" ph="..." />
           </folding>
         </state>
       </provider>
