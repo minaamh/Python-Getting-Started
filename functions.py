@@ -1,5 +1,5 @@
 students = []
-add_more = True
+
 
 def get_students_titlecase():
     students_titlecase = []
@@ -17,12 +17,11 @@ def print_students_titlecase():
 def add_student(name, student_id=332):
     student = {"name": name, "student_id": student_id}
     students.append(student)
-    save_file(student)
 
-def save_file(student):
+def save_file(student_name):
     try:
         f = open("students.txt","a")
-        f.write(student,"\n")
+        f.write(student_name + "\n")
         f.close()
     except Exception as error:
         print("Could not save to file")
@@ -38,17 +37,17 @@ def read_file():
         print("Could not read from file")
         print(error)
 
-
-while(add_more):
-    student_name = input("Please enter the student name: ")
-    student_ID = input("Please enter the student ID: ")
-    add_student(student_name, student_ID)
-    temp = input("Do you want to add more students? (y/n)")
-    if (temp=='n'):
-        add_more=False
-
-
+read_file()
 print_students_titlecase()
+
+student_name = input("Please enter the student name: ")
+student_ID = input("Please enter the student ID: ")
+
+add_student(student_name, student_ID)
+save_file(student_name)
+
+
+
 #def var_args(name, *args):
 #    print(name)
 #    print(args)
